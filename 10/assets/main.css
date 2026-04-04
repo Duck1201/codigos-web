@@ -1,0 +1,23 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 13pt;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 80px 96%;
+    grid-template-rows: 350px 500px;
+}
+.menu{
+    list-style: none;
+}
+#menu-d1{
+    border: 1px solid black;
+}
+#menuL{
+    padding: 0;
+}
+#conteiner{
+    margin-left: 100px;
+    border: 1px solid black;
+}

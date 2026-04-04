@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>002</title>
+    <style>
+        button{
+            width: 150px;
+            height: 60px;
+        }
+        body{
+            text-align: center;
+            font: normal 16pt Arial;
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <h1>Boas-Vindas</h1>
+    <button type="button" id="botao">Iniciar o Desafio</button>
+    <script>
+        let botao = document.getElementById('botao')
+        botao.addEventListener('click', () => {
+            let nome = prompt('Qual seu nome?')
+            let nome_R = nome.charAt(0).toUpperCase() + nome.slice(1)
+            let idade = prompt(`Olá, ${nome_R}! Quantos anos você tem?`)
+            alert(`Acabei de conhecer ${nome_R}, que tem ${idade} anos de idade!`)
+        })
+    </script>
+</body>
+</html>

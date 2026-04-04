@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>003</title>
+    <style>
+        body{
+            font: normal 18pt Arial;
+            text-align: center;
+        }
+        button{
+            font: normal 12pt Arial;
+            width: 200px;
+            height: 65px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1>Antes e Depois</h1>
+    <button type="button" id="botao">Antecessor e Sucessor</button>
+    <script>
+        let botao = document.getElementById('botao')
+        botao.addEventListener('click', () => {
+            let num = parseInt(prompt('Digite um número inteiro qualquer'))
+            alert(`Antes do ${num}, temos o número ${num - 1}\nDepois do ${num}, temos o número ${num + 1}`)
+        })
+    </script>
+</body>
+</html>

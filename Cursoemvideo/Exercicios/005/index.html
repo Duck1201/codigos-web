@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>005</title>
+    <style>
+        body{
+            text-align: center;
+            font: normal 17pt Arial;
+        }
+        button{
+            width: 150px;
+            height: 60px;
+            font: normal 15pt Arial;
+        }
+        #medidas{
+            border: 2px solid black;
+            display: none;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Conversor de medidas</h1>
+    <button type="button" id="distancia">Converter</button>
+    <p>Clique no botão acima para iniciar</p>
+    <div id="medidas"></div>
+    <script>
+        let distancia = document.getElementById('distancia')
+        distancia.addEventListener('click', () => {
+            let metros = Number(prompt('Digite uma distância em metros (m)'))
+            //Medidas Altas
+            let kilometro = metros / 1000
+            let hectometro = metros / 100
+            let decametro = metros / 10
+            //Medidas Baixar
+            let deciemetro = metros * 10
+            let centimetro = metros * 100
+            let milimetro = metros * 1000    
+
+            let medidas = document.getElementById('medidas')
+            medidas.style.display = ('block')
+            medidas.innerHTML = (`<h2>A distância de ${metros} metros, corresponde a...</h2>
+            ${kilometro.toLocaleString('PT-BR')} Kilometros<br>
+            ${hectometro.toLocaleString('PT-BR')} Hectometros<br>
+            ${decametro.toLocaleString('PT-BR')} Decametros<br>
+            ${deciemetro.toLocaleString('PT-BR')} Decimetros<br>
+            ${centimetro.toLocaleString('PT-BR')} Centimetros<br>
+            ${milimetro.toLocaleString('PT-BR')} Milimetros`)
+        })
+
+    </script>
+</body>
+</html>

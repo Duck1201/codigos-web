@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>004</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: whitesmoke;
+        }
+        button{
+            width: 150px;
+            height: 60px;
+            border-radius: 10px;
+        }
+        section{
+            border: 2px solid black;
+            width: 500px;
+            height: 300px;
+            margin: auto;
+            justify-content: center;
+            border-radius: 10px;
+            font: normal 15px Arial;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Calculando o Troco</h1>
+        <button type="button" id="botao">Comprar produto</button>
+    </section>
+    <script>
+        let botao = document.getElementById('botao')
+        botao.addEventListener('click', () => {
+            // PROMPTS
+            let produto = prompt('Qual produto você está comprando?')
+            let preco = Number(prompt(`Quanto custa o ${produto} que você está comprando?`))
+            let valorPago = Number(prompt(`Qual foi o valor que você deu para pagar o ${produto}?`))
+            let total = valorPago - preco
+            
+            // PREÇO EM BRL
+            let precoLocate = preco.toLocaleString("PT-BR", {style: 'currency' , currency: 'BRL'})
+            let valorPago_Locate = valorPago.toLocaleString("PT-BR", {style: 'currency', currency: "BRL"})
+            let totalLocate = total.toLocaleString('PT-BR', {style: 'currency', currency: 'BRL'})
+            
+            alert(`Você comprou ${produto} que custou ${precoLocate}.\nDeu ${valorPago_Locate} em dinheiro e vai receber ${totalLocate} de troco.\nVolte sempre!`)
+        })
+    </script>
+</body>
+</html>

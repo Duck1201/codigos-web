@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(19, 160, 158);
+    color: white;
+    font: normal 10pt Arial;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+div#resposta{
+    padding-top: 10px;
+}
+#resposta{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}

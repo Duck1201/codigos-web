@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(12, 144, 232);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+    color: white;
+}
+section{
+    width: 700px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(200, 200, 200);
+    color: black;
+    background-color: snow;
+    margin: auto;
+    padding-top: 40px;
+    padding-left: 25px;
+}
+header{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    }
+.inputs{
+    margin-bottom: 10px;
+}
+label{
+    width: 60px;
+    display: inline-block;
+}
+#contar{
+    width: 90px;
+    height: 25px;
+    border-radius: 7px;
+    margin-top: 15px;
+}

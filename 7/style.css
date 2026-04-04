@@ -1,0 +1,17 @@
+div#teste{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: darkolivegreen;
+    padding: 30px;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 1px solid black;
+    border-radius: 10px;
+    color:  white;
+}
+body{
+    background-color: beige;
+    font: normal 20pt Arial;
+}

@@ -1,0 +1,35 @@
+body{
+    background-color: #0e4f81;
+    font: normal 15pt Arial;
+
+}
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 2px 2px 10px black;        
+}
+header{
+    color: white;
+    text-align: center;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+.dia{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+section div#imagem{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+section div#horas{
+    text-align: center;
+}

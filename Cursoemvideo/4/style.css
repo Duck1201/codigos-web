@@ -1,0 +1,39 @@
+body{
+    background-color: oldlace;
+    color: rgb(0, 0, 0);
+    font: normal 14pt Arial;
+}
+main{
+    border: 1px solid black;
+    width: 700px;
+    height: 300px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: snow;
+    box-shadow: 1px 1px 5px black;
+    padding: 40px;
+}
+header{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+select{
+    margin-top: 20px;
+}
+#d1{
+    display: flex;
+}
+#input{
+    display: flex;
+    gap: 3px;
+    width: 200px;
+    height: 30px;
+    font-size: 18pt;
+}
+button{
+    margin-left: 56px;
+    width: 160px;
+    height: 30px;
+}

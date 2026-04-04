@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(33, 33, 33);
+    color: white;
+}
+.tim{
+    width: 300px;
+    display: flexbox;
+    padding-bottom: 10px;
+}
+.botao{
+    background-color: #a51e1e;
+    width: 16%;
+    height: 30px;
+}
+.pergunta{
+    background-color: aquamarine;
+    width: 16%;
+    height: fit-content;
+}

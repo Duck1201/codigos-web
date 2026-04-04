@@ -1,0 +1,71 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 13pt;
+    background-color:snow;
+}
+main{
+    border: 2px solid black;
+    height: 550px;
+    width: 50%;
+    margin: auto;
+    margin-top: 120px;
+    padding-top: 100px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 10px black;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+#d1{
+    text-align: center;
+    margin: auto;
+    width: 320px;
+    font-size: 20px;
+}
+#botoes{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+}
+#botao1{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#botao2{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);    
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: 16px;
+}
+#logo{
+    width: 120px;
+    height: 80px;
+}
+#imagem{
+    justify-content: center;
+    margin: auto;
+    margin-top: 0;
+    display: flex;
+}
+#copy{
+    font-style: italic;
+    text-align: center;
+}
