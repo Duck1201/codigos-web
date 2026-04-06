@@ -6,7 +6,7 @@ body{
 }
 section{
     width: 700px;
-    height: 250px;
+    height: auto;
     border-radius: 10px;
     box-shadow: 1px 1px 5px rgb(200, 200, 200);
     color: black;
@@ -33,4 +33,10 @@ label{
     height: 25px;
     border-radius: 7px;
     margin-top: 15px;
+}
+#contar:hover{
+    background-color: black;
+    color: whitesmoke;
+    transition: all 0.7s;
+    transform: scale(1.1);
 }
