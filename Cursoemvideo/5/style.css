@@ -1,0 +1,36 @@
+body{
+    font: normal 13pt Arial;
+}
+main{
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    width: 650px;
+}
+header{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    font-style: italic;
+}
+label{
+    display: inline-block;
+    width: 185px;
+}
+section{
+    margin-left: 20px;
+}
+select{
+    margin-top: 15px;
+    width: 220px;
+}
+.finalizar{
+    margin-left: 65px;
+    margin-top: 7px;
+}
+#conteudo{
+    font: normal 15pt Arial;
+}
